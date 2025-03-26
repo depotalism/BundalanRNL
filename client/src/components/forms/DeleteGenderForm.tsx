@@ -17,7 +17,7 @@ const DeleteGenderForm = () => {
           />
         </div>
         <div className="d-flex justify-content-end">
-          <Link to={"/"} className="btn btn-secondary me-1">
+          <Link to={"/gender/delete"} className="btn btn-secondary me-1">
             NO
           </Link>
           <button type="submit" className="btn btn-danger">
@@ -29,4 +29,4 @@ const DeleteGenderForm = () => {
   );
 };
 
-export default DeleteGenderForm;
+export default DeleteGenderForm
